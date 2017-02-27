@@ -42,3 +42,6 @@ jspm_packages
 # Project auto generated files directories
 css
 js
+
+#Project PSD files
+psd
