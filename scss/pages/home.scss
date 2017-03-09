@@ -1,0 +1,27 @@
+//global styles
+@import"../global";
+
+//home page
+
+.logo{
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.top-section{
+    border-bottom: 1rem solid $prime;
+    background: url("../../img/bgpicture.jpg") no-repeat center center;
+    background-size: cover; 
+}
+
+.top-nav{
+    display: block;
+    margin-right: 1.5rem;
+}
+
+.top-nav-item{
+    display: inline-block;
+    margin-left: 4.8rem;
+}
+    

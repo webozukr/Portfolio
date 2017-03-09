@@ -1,0 +1,23 @@
+// ---------------------------
+// LAYOUTS & CONTAINERS
+// ---------------------------
+
+div, p, section{
+  box-sizing: border-box;
+}
+
+.top-section {
+  padding-top: $contVerIndent;
+  padding-bottom: $contVerIndent;
+}
+
+.wrap { 
+  max-width: $mainContainer;
+  padding-left: $contHorIndent;
+  padding-right: $contHorIndent;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: 50%;
+}

@@ -29,6 +29,8 @@ $bgcolorShade:     #c2c0ba;
 $bgcolorTint:      #f6f4f0;
 $bgcolorPastel:    #f8f7f4;
 
+$bg-main:          #241e18;
+
 //--------------------------
 //OTHER COLORS
 //--------------------------
@@ -40,3 +42,29 @@ $black:            #000000;
 //VARIABLES
 //--------------------------
 
+
+//--------------------------
+// HOVER INTENSITY
+//--------------------------
+
+$hoverEffect: 10%;
+
+//--------------------------
+// SIZE
+//--------------------------
+
+$mainContainer: 140rem;
+
+//--------------------------
+// INDENTS
+//--------------------------
+
+$contHorIndent: 11.5rem;
+$contVerIndent: 10rem;
+
+//--------------------------
+// INDENTS MOBILE
+//--------------------------
+
+$contHorIndentMob: 3%;
+$contVerIndentMob: 4rem;

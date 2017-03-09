@@ -55,13 +55,17 @@ p{
 
 a{
     @extend %fontf_OS;
-    font-size: 1.6rem;
-    text-decoration: underline;
-    color:$green;
-    transition: all 0.5s;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color:$bgcolorShade;
+    border:0.2rem solid transparent;
+    transition: all 0.2s;
+    padding-bottom: 1rem;
     &:hover{
-        text-decoration: none;
         color:$white;
+        text-decoration: none;        
+        border-bottom-color: $prime;
     }
 }
 
