@@ -108,13 +108,13 @@
 
 .bg-white {
   &.bg-white {
-    background-color: #fff;
+    background-color: $white;
   }
 }
 
 .bg-black {
   &.bg-black {
-    background-color: #000;
+    background-color: $black;
   }
 }
 
@@ -178,6 +178,6 @@
   margin-bottom: 10rem;
 }
 
-.mb-15 {
-  margin-bottom: 15rem;
+.mb-14 {
+  margin-bottom: 14rem;
 }

@@ -1,0 +1,71 @@
+%btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: $white;
+    background: transparent;
+    padding: 1.5rem 3rem;
+    border: 2px solid $white;
+    width: auto;
+    border-radius: 4rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+//     
+//    @media (max-width:$screen-md){
+//        width:35%;
+//    } 
+//
+//    @media (max-width:$screen-sm){
+//        width:50%;
+//    }
+//
+//     @media (max-width: $screen-xs){
+//        width: 75%;
+//    }   
+    
+    
+}
+
+.btn-prime {
+  @extend %btn;
+  background: $prime;
+  border: 2px solid $prime;
+
+  &:hover {
+    background: $primeShade;
+  }
+}
+
+.btn-second {
+  @extend %btn;
+  background: $highlight;
+  border: 2px solid $highlight;
+
+  &:hover {
+    background: $white;
+    border: 2px solid $white;
+    color: $highlight;
+  }
+}
+
+.btn-outline {
+  @extend %btn;
+
+  &:hover {
+    background: $white;
+    color: $prime;
+  }
+}
+
+.btn-small {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
+.btn-large {
+  padding: 1.9rem 5.1rem;
+}
