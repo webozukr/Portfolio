@@ -4,7 +4,6 @@
     color: $white;
     background: transparent;
     padding: 1.5rem 3rem;
-    border: 2px solid $white;
     width: auto;
     border-radius: 4rem;
     margin: 0 auto;
@@ -32,8 +31,9 @@
 
 .btn-prime {
   @extend %btn;
-  background: $prime;
-  border: 2px solid $prime;
+    border: 2px solid $white;
+    background: $prime;
+    border: 2px solid $prime;
 
   &:hover {
     background: $primeShade;
@@ -42,8 +42,9 @@
 
 .btn-second {
   @extend %btn;
-  background: $highlight;
-  border: 2px solid $highlight;
+    border: 2px solid $white;
+    background: $highlight;
+    border: 2px solid $highlight;
 
   &:hover {
     background: $white;
@@ -54,12 +55,23 @@
 
 .btn-outline {
   @extend %btn;
-
+    border: 2px solid $white;
   &:hover {
     background: $white;
     color: $prime;
   }
 }
+
+.btn-outline-green {
+  @extend %btn;
+    color:$prime;
+    border: 2px solid $prime;
+  &:hover {
+    background: $prime;
+    color: $white;
+  }
+}
+
 
 .btn-small {
   padding: 1rem 2rem;

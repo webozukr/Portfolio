@@ -13,10 +13,6 @@
     background-size: cover; 
 }
 
-header {
-    padding-top: 4rem;
-}
-
 .top-nav{
     display: block;
     margin-right: 1.5rem;
@@ -26,4 +22,50 @@ header {
     display: inline-block;
     margin-left: 4.8rem;
 }
-    
+
+.myserv-section {
+    .picture {
+        width: 16.6rem;
+        height: 16.6rem;
+        transition: background 0.5s;
+        &:hover{
+            background-color: $highlight;
+        }
+    }
+    .pic-left{
+        background-image: url("../../img/pic-left.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .pic-middle{
+        background-image: url("../../img/pic-middle.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .pic-right{
+        background-image: url("../../img/pic-right.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+
+.aboutme-section {
+    .picture {
+        width: 14rem;
+        height: 14rem;
+    }
+    .pic{
+        background-image: url("../../img/photo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.aboutme-section{
+    line-height: 3rem;
+    span{
+        font-weight: 100;
+        line-height: 3rem;
+    }
+}

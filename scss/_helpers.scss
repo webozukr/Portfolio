@@ -136,6 +136,12 @@
   }
 }
 
+.bg-transparent {
+  &.bg-transparent {
+    background-color: transparent;
+  }
+}
+
 .bg-gray {
   &.bg-gray {
     background-color: $bgcolor;
