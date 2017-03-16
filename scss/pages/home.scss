@@ -64,8 +64,63 @@
 
 .aboutme-section{
     line-height: 3rem;
-    span{
-        font-weight: 100;
-        line-height: 3rem;
+}
+
+.mywork-section-wrap{
+    border:0.1rem solid $bg-gray;
+    background-color: $white;
+    border-radius: 0.3rem;
+    width: 26.3rem;
+    height: 19.7rem;
+    .inner-block{
+        width: 25.3rem;
+        height:18.7rem;
+        margin: 0.4rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        
     }
+
+}
+
+.pic-1{
+    background: url("../../img/mywork-pic-1.jpg");
+    transition: all 0.2s;
+    &:hover{
+       
+        
+        background: rgba(223,157,42,0.7);
+        transform: scale(1.1);
+       
+        
+        
+    }
+}
+
+.pic-2{
+    background-image: url("../../img/mywork-pic-2.jpg");
+}
+
+.pic-3{
+    background-image: url("../../img/mywork-pic-3.jpg");
+}
+
+.pic-4{
+    background-image: url("../../img/mywork-pic-4.jpg");
+}
+
+.pic-5{
+    background-image: url("../../img/mywork-pic-5.jpg");
+}
+
+.pic-6{
+    background-image: url("../../img/mywork-pic-6.jpg");
+}
+
+.pic-7{
+    background-image: url("../../img/mywork-pic-7.jpg");
+}
+
+.pic-8{
+    background-image: url("../../img/mywork-pic-8.jpg");
 }
