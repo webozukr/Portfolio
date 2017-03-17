@@ -1,24 +1,22 @@
 //global styles
 @import"../global";
-
 //home page
-
-.logo{    
+.logo {
     color: $white;
 }
 
-.top{
+.top {
     border-bottom: 1rem solid $prime;
     background: url("../../img/bgpicture.jpg") no-repeat center center;
-    background-size: cover; 
+    background-size: cover;
 }
 
-.top-nav{
+.top-nav {
     display: block;
     margin-right: 1.5rem;
 }
 
-.top-nav-item{
+.top-nav-item {
     display: inline-block;
     margin-left: 4.8rem;
 }
@@ -28,26 +26,25 @@
         width: 16.6rem;
         height: 16.6rem;
         transition: background 0.5s;
-        &:hover{
+        &:hover {
             background-color: $highlight;
         }
     }
-    .pic-left{
+    .pic-left {
         background-image: url("../../img/pic-left.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .pic-middle{
+    .pic-middle {
         background-image: url("../../img/pic-middle.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-    .pic-right{
+    .pic-right {
         background-image: url("../../img/pic-right.png");
         background-position: center;
         background-repeat: no-repeat;
     }
-
 }
 
 .aboutme-section {
@@ -55,72 +52,106 @@
         width: 14rem;
         height: 14rem;
     }
-    .pic{
+    .pic {
         background-image: url("../../img/photo.png");
         background-position: center;
         background-repeat: no-repeat;
     }
 }
 
-.aboutme-section{
+.aboutme-section {
     line-height: 3rem;
 }
 
-.mywork-section-wrap{
-    border:0.1rem solid $bg-gray;
+.mywork-section-wrap {
+    border: 0.1rem solid $black;
     background-color: $white;
     border-radius: 0.3rem;
     width: 26.3rem;
     height: 19.7rem;
-    .inner-block{
+    .inner-block {
         width: 25.3rem;
-        height:18.7rem;
+        height: 18.7rem;
         margin: 0.4rem;
         background-position: center;
         background-repeat: no-repeat;
-        
     }
-
-}
-
-.pic-1{
-    background: url("../../img/mywork-pic-1.jpg");
-    transition: all 0.2s;
-    &:hover{
-       
-        
-        background: rgba(223,157,42,0.7);
-        transform: scale(1.1);
-       
-        
-        
+    .mask {
+        opacity: 0;
+        width: 25.3rem;
+        height: 18.7rem;
+        transition: all 0.3s linear;
     }
 }
 
-.pic-2{
+.pic-1 {
+    background-image: url("../../img/mywork-pic-1.jpg");
+}
+
+.pic-2 {
     background-image: url("../../img/mywork-pic-2.jpg");
 }
 
-.pic-3{
+.pic-3 {
     background-image: url("../../img/mywork-pic-3.jpg");
 }
 
-.pic-4{
+.pic-4 {
     background-image: url("../../img/mywork-pic-4.jpg");
 }
 
-.pic-5{
+.pic-5 {
     background-image: url("../../img/mywork-pic-5.jpg");
 }
 
-.pic-6{
+.pic-6 {
     background-image: url("../../img/mywork-pic-6.jpg");
 }
 
-.pic-7{
+.pic-7 {
     background-image: url("../../img/mywork-pic-7.jpg");
 }
 
-.pic-8{
+.pic-8 {
     background-image: url("../../img/mywork-pic-8.jpg");
+}
+
+.mask:hover {
+    background: rgba(223, 157, 42, 0.9);
+    opacity: 1;
+}
+
+//TEST SLIDER
+.slider-section-left,
+.slider-section-right {
+//    width: 6rem;
+//    height: 21rem;
+    background: green;
+    margin-top:5rem;
+}
+
+.slider-section-middle {
+    height: 21rem;
+    margin: 0 4rem;
+    border:0.2rem solid $black;
+    border-radius: 2rem;
+}
+
+.sec-left,
+.sec-right {
+    width:8rem;
+    height:8rem;
+    padding-top:3rem;
+    &:hover{
+        cursor:pointer;
+        color:$highlight;
+        transform: scale(1.2);
+    }
+}
+
+.sec-middle{
+    width:auto;
+    height: 21rem;
+    background-color: transparent;
+    transition: all 0.5s linear;
 }

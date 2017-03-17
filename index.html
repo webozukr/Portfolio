@@ -1,191 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="./css/pages/home.css">    
+    <link rel="stylesheet" href="./css/pages/home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
-    
- 
-<!--TOP SECTION   -->
-   
-<section class="top bg-main">
-    <header class="wrap clrf">
-    <div class="logo pull-left user-h3 text-bold mb-10">John Freelancer</div>
-    
-    <div class="hamburger pull-right _hamburger">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    
-    <nav class="top-nav pull-right _nav">
-        <ul class="list-unstyled text-uppercase text-bold">
-            <li class="top-nav-item"><a href="#">home</a></li>
-            <li class="top-nav-item"><a href="#">about</a></li>
-            <li class="top-nav-item"><a href="#">services</a></li>
-            <li class="top-nav-item"><a href="#">blog</a></li>
-            <li class="top-nav-item"><a href="#">contact</a></li>
-        </ul>
-    </nav>      
-</header>
-<div class="wrap">
-<div class="row">
 
-    <div class="col-xs-12 text-center mb-10 prime text-bold user-h5 text-uppercase">web designer and developer</div>
-</div>
-<div class="row">
-    <div class="col-xs-12 text-center mb-10 white text-bold user-h1">My Name Is John<br>I Design Beautiful Websites</div>
-</div>
 
-<div class="row">
-            <div class="col-md-6 col-xs-12">
-                <div class="pull-right">
-                    <div class="btn-outline btn-large">learn more</div>
-                </div>
+    <!--TOP SECTION   -->
+
+    <section class="top bg-main">
+        <header class="wrap clrf">
+            <div class="logo pull-left user-h3 text-bold mb-10">John Freelancer</div>
+
+            <div class="hamburger pull-right _hamburger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
-            <div class="col-md-6 col-xs-12">
-                <div class="pull-left">
-                    <div class="btn-second btn-large" data-toggle="modal" data-target="#contactMe">contact me</div>
+
+            <nav class="top-nav pull-right _nav">
+                <ul class="list-unstyled text-uppercase text-bold">
+                    <li class="top-nav-item"><a href="#">home</a></li>
+                    <li class="top-nav-item"><a href="#">about</a></li>
+                    <li class="top-nav-item"><a href="#">services</a></li>
+                    <li class="top-nav-item"><a href="#">blog</a></li>
+                    <li class="top-nav-item"><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrap">
+            <div class="row">
+
+                <div class="col-xs-12 text-center mb-10 prime text-bold user-h5 text-uppercase">web designer and developer</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center mb-10 white text-bold user-h1">My Name Is John<br>I Design Beautiful Websites</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <div class="pull-right">
+                        <div class="btn-outline btn-large">learn more</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="pull-left">
+                        <div class="btn-second btn-large" data-toggle="modal" data-target="#contactMe">contact me</div>
+                    </div>
                 </div>
             </div>
         </div>
-</div>
-</div>
-</section>
+        </div>
+    </section>
 
-<!--MY SERVICES SECTION-->
+    <!--MY SERVICES SECTION-->
 
-<section class="bg-white" >
-    <div class="wrap">
-    <div class="text-center user-h2 mb-4 black text-bold">My Services</div>
-    <div class="text-center user-h5 mb-10 prime text-uppercase text-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="myserv-section">
-            <div class="center picture circle bg-prime pic-left mb-5"></div>
-            <div class="user-h3 text-center text-bold mb-4">Graphic Design</div>
-            <div class="text-center mb-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquam pariatur accusamus sint veniam distinctio maxime, quia.</p></div>
+    <section class="bg-white">
+        <div class="wrap">
+            <div class="text-center user-h2 mb-4 black text-bold">My Services</div>
+            <div class="text-center user-h5 mb-10 prime text-uppercase text-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="myserv-section">
+                        <div class="center picture circle bg-prime pic-left mb-5"></div>
+                        <div class="user-h3 text-center text-bold mb-4">Graphic Design</div>
+                        <div class="text-center mb-5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquam pariatur accusamus sint veniam distinctio maxime, quia.</p>
+                        </div>
+                        <div class="center">
+                            <div class="center btn-outline-green btn-large">learn more</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="myserv-section">
+                        <div class="center picture circle bg-prime pic-middle mb-5"></div>
+                        <div class="user-h3 text-center text-bold mb-4">Web Development</div>
+                        <div class="text-center mb-5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquam pariatur accusamus sint veniam distinctio maxime, quia.</p>
+                        </div>
+                        <div class="center">
+                            <div class="center btn-outline-green btn-large">learn more</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="myserv-section">
+                        <div class="center picture circle bg-prime pic-right mb-5"></div>
+                        <div class="user-h3 text-center text-bold mb-4">Research</div>
+                        <div class="text-center mb-5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis impedit vel architecto consequatur eveniet nihil tempora ratione.</p>
+                        </div>
+                        <div class="center">
+                            <div class="btn-outline-green btn-large">learn more</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!--ABOUT ME SECTION-->
+
+    <section class="bg-gray">
+        <div class="wrap">
+            <div class="user-h2 text-bold text-center mb-4">About Me</div>
+            <div class="user-h5 text-bold text-center text-uppercase prime mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="aboutme-section">
+                        <div class="center picture pic circle bg-transparent mb-3"></div>
+                        <div class="user-h3 text-center text-bold mb-2">webOZukr</div>
+                        <div class="text-center text-italic mb-4">
+                            <p>graphic Designer &frasl; Web Developer</p>
+                        </div>
+                        <div class="user-h5 text-bold text-center text-uppercase prime text-underline">&#64;johnfreelancer</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aboutme-section">
+                        <div class="text-left text-bold mb-5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quam, ratione soluta, accusantium cumque aspernatur odit placeat asperiores minus.</p>
+                        </div>
+                        <div class="text-left mb-5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolorum commodi possimus officia pariatur accusamus eos saepe!</p>
+                        </div>
+                        <div class="text-left">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit libero distinctio blanditiis facere, possimus suscipit dolorum harum architecto omnis commodi rem, iusto adipisci voluptates error, placeat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aboutme-section">
+                        <div class="text-left text-bold mb-5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quam, ratione soluta, accusantium cumque aspernatur odit placeat asperiores minus.</p>
+                        </div>
+                        <div class="text-left mb-5">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolorum commodi possimus officia pariatur accusamus eos saepe!</p>
+                        </div>
+                        <div class="user-h5 text-bold text-left prime text-underline">
+                            <p>Read more about me...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MY WORK-->
+
+    <section class="bg-white">
+        <div class="wrap">
+            <div class="user-h2 text-bold text-center mb-4">My Work</div>
+            <div class="user-h5 text-bold text-center text-uppercase prime mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-1">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-2">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-3">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-4">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-5">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-6">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-7">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mywork-section-wrap center mb-5">
+                        <div class="inner-block pic-8">
+                            <div class="center mask">
+                                <div class="user-h4 text-bold text-center white mb-2 mp-4">Project name</div>
+                                <div class="btn-outline btn-small center">see project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="center">
-            <div class="center btn-outline-green btn-large">learn more</div>
+                <div class="center btn-outline-green btn-large">see more projects</div>
             </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <div class="myserv-section">
-            <div class="center picture circle bg-prime pic-middle mb-5"></div>
-            <div class="user-h3 text-center text-bold mb-4">Web Development</div>
-            <div class="text-center mb-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquam pariatur accusamus sint veniam distinctio maxime, quia.</p></div>
-            <div class="center">
-            <div class="center btn-outline-green btn-large">learn more</div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="myserv-section">
-            <div class="center picture circle bg-prime pic-right mb-5"></div>
-            <div class="user-h3 text-center text-bold mb-4">Research</div>
-            <div class="text-center mb-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis impedit vel architecto consequatur eveniet nihil tempora ratione.</p></div>
-            <div class="center">
-            <div class="btn-outline-green btn-large">learn more</div>
-            </div>
-        </div>
-    </div>
+    </section>
 
-</div>
-</section>
+    <!--MY CLIENTS-->
 
-<!--ABOUT ME SECTION-->
+    <section class="bg-gray">
+        <div class="wrap">
+            <div class="user-h2 text-bold text-center mb-4">What My Clients Say</div>
+            <div class="user-h5 text-bold text-center text-uppercase prime mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 
-<section class="bg-gray">
-    <div class="wrap">
-        <div class="user-h2 text-bold text-center mb-4">About Me</div>
-        <div class="user-h5 text-bold text-center text-uppercase prime mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-        
-        <div class="row">
-            <div class="col-md-4">
-                <div class="aboutme-section">
-                    <div class="center picture pic circle bg-transparent mb-3"></div>
-                    <div class="user-h3 text-center text-bold mb-2">webOZukr</div>
-                    <div class="text-center text-italic mb-4"><p>graphic Designer &frasl; Web Developer</p></div>
-                    <div class="user-h5 text-bold text-center text-uppercase prime text-underline">&#64;johnfreelancer</div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="slider-section-left pull-right circle">
+                        <div class="sec-left text-center white text-uppercase">prev</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="slider-section-middle center">
+                        <div class="sec-middle"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="slider-section-right pull-left circle">
+                        <div class="sec-right text-center white text-uppercase">next</div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">                
-                <div class="aboutme-section">
-                    <div class="text-left text-bold mb-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quam, ratione soluta, accusantium cumque aspernatur odit placeat asperiores minus.</p></div>
-                    <div class="text-left mb-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolorum commodi possimus officia pariatur accusamus eos saepe!</p></div>
-                    <div class="text-left mb-10"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit libero distinctio blanditiis facere, possimus suscipit dolorum harum architecto omnis commodi rem, iusto adipisci voluptates error, placeat.</p></div>
-                </div>            
-            </div>
-            <div class="col-md-4">
-                <div class="aboutme-section">
-                    <div class="text-left text-bold mb-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quam, ratione soluta, accusantium cumque aspernatur odit placeat asperiores minus.</p></div>
-                    <div class="text-left mb-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolorum commodi possimus officia pariatur accusamus eos saepe!</p></div>
-                    <div class="user-h5 text-bold text-left prime text-underline"><p>Read more about me...</p></div>
-                </div>
-            </div>        
-        </div>    
-    </div>
-</section>
 
-<!--MY WORK-->
+            <script>
+                $(document).ready(function() {
+                    var slide_num = 2;
+                    var slide_url = "url(img/mywork-pic-1.jpg) no-repeat center center";
+                    $(".slider-section-right").click(function() {
+                        slide_num = slide_num + 1;
+                        if (slide_num >= 4) {
+                            slide_num = 3;
+                        };
+                        slide_url = "url(img/mywork-pic-" + slide_num + ".jpg) no-repeat center center";
+                        $(".sec-middle").css("background", slide_url);
+                    });
 
-<section class="bg-white">
-    <div class="wrap">
-    <div class="user-h2 text-bold text-center mb-4">My Work</div>
-        <div class="user-h5 text-bold text-center text-uppercase prime mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-3">
-                <div class="inner-block pic-1"></div>
-            </div>
+                    $(".slider-section-left").click(function() {
+                        slide_num = slide_num - 1;
+                        if (slide_num <= 0) {
+                            slide_num = 1;
+                        };
+                        slide_url = "url(img/mywork-pic-" + slide_num + ".jpg) no-repeat center center";
+                        $(".sec-middle").css("background", slide_url);
+                    });
+
+                });
+
+            </script>
+
+
+
+
+
+
+
+
+
+
         </div>
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-3">
-                <div class="inner-block pic-2"></div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-3">
-                <div class="inner-block pic-3"></div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-3">
-                <div class="inner-block pic-4"></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-5">
-                <div class="inner-block pic-5"></div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-5">
-                <div class="inner-block pic-6"></div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-5">
-                <div class="inner-block pic-7"></div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="mywork-section-wrap mb-5">
-                <div class="inner-block pic-8"></div>
-            </div>
-        </div>
-    </div>
-
-<div class="center">
-    <div class="center btn-outline-green btn-large">see more projects</div>
-</div>
+    </section>
 
 
 
@@ -196,34 +328,16 @@
 
 
 
-</div>
-</section>
+    <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="./js/build.js"></script>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-  
-<script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-
-<script src="./js/build.js"></script>
 </body>
+
 </html>
