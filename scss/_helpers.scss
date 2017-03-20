@@ -98,6 +98,10 @@
     }
 }
 
+.footer-color {
+    color: $bg-main-light;
+}
+
 // -------------------------
 // BACKGROUNG COLORS
 // -------------------------
@@ -141,6 +145,10 @@
     &.bg-gray {
         background-color: $bgcolor;
     }
+}
+
+.bg-footer {
+    background-color: $bg-main-light;
 }
 
 // -------------------------

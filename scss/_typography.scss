@@ -1,83 +1,86 @@
 //--------------------------
 //TYPOGRAPHY AND TEXT STYLES
 //--------------------------
-
-html{
+html {
     font-size: 10px;
 }
 
 //--------------------------
 //HEADINGS
 //--------------------------
-
-%fontf_MW{
-    font-family: "Merriweather",serif;
+%fontf_MW {
+    font-family: "Merriweather", serif;
 }
 
-%fontf_OS{
+%fontf_OS {
     font-family: "Open Sans", sans-serif;
 }
 
-.user-h1{
+.user-h1 {
     @extend %fontf_MW;
     font-size: 4.8rem;
 }
 
-.user-h2{
+.user-h2 {
     @extend %fontf_MW;
     font-size: 3.6rem;
 }
 
-.user-h3{
+.user-h3 {
     @extend %fontf_MW;
     font-size: 2.4rem;
 }
 
-.user-h4{
+.user-h4 {
     @extend %fontf_MW;
     font-size: 2.2rem;
 }
 
-.user-h5{
+.user-h5 {
     @extend %fontf_OS;
     font-size: 1.4rem;
 }
 
-.user-h6{
+.user-h6 {
     @extend %fontf_MW;
     font-size: 1.4rem;
 }
 
-.text-bold{
+.user-h7 {
+    @extend %fontf_OS;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.text-bold {
     font-weight: bold;
 }
 
-.text-italic{
+.text-italic {
     font-style: italic;
 }
 
-p{
+p {
     @extend %fontf_OS;
     font-size: 1.8rem;
 }
 
-a{
+a {
     @extend %fontf_OS;
-    font-size: 1.2rem;    
-    color:$bgcolorShade;
-    border:0.2rem solid transparent;
+    font-size: 1.2rem;
+    color: $bgcolorShade;
+    border: 0.2rem solid transparent;
     padding-bottom: 1rem;
     text-decoration: none;
     transition: all 0.5s;
-    
-    &:hover{
-        color:$white;
+    &:hover {
+        color: $white;
         border-bottom-color: $prime;
         text-decoration: none;
     }
 }
 
-::selection{
-    background-color:$highlight;
+::selection {
+    background-color: $highlight;
+    color: $white;
 }
-

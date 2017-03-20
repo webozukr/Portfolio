@@ -13,71 +13,72 @@
     cursor: pointer;
     text-align: center;
     transition: all 0.5s;
-//     
-//    @media (max-width:$screen-md){
-//        width:35%;
-//    } 
-//
-//    @media (max-width:$screen-sm){
-//        width:50%;
-//    }
-//
-//     @media (max-width: $screen-xs){
-//        width: 75%;
-//    }   
-    
-    
+    //     
+    //    @media (max-width:$screen-md){
+    //        width:35%;
+    //    } 
+    //
+    //    @media (max-width:$screen-sm){
+    //        width:50%;
+    //    }
+    //
+    //     @media (max-width: $screen-xs){
+    //        width: 75%;
+    //    }   
 }
 
 .btn-prime {
-  @extend %btn;
+    @extend %btn;
     border: 2px solid $white;
     background: $prime;
     border: 2px solid $prime;
-
-  &:hover {
-    background: $primeShade;
-  }
+    &:hover {
+        background: $primeShade;
+    }
 }
 
 .btn-second {
-  @extend %btn;
+    @extend %btn;
     border: 2px solid $white;
     background: $highlight;
     border: 2px solid $highlight;
+    &:hover {
+        background: $white;
+        border: 2px solid $white;
+        color: $highlight;
+    }
+}
 
-  &:hover {
+.contactme-section>.btn-second:hover {
     background: $white;
-    border: 2px solid $white;
+    border: 2px solid $highlight;
     color: $highlight;
-  }
 }
 
 .btn-outline {
-  @extend %btn;
+    @extend %btn;
     border: 2px solid $white;
-  &:hover {
-    background: $white;
-    color: $prime;
-  }
+    &:hover {
+        background: $white;
+        color: $prime;
+    }
 }
 
 .btn-outline-green {
-  @extend %btn;
-    color:$prime;
+    @extend %btn;
+    color: $prime;
     border: 2px solid $prime;
-  &:hover {
-    background: $prime;
-    color: $white;
-  }
+    &:hover {
+        background: $prime;
+        color: $white;
+    }
 }
 
-
 .btn-small {
-  padding: 1rem 2rem;
-  font-size: 1.3rem;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
 }
 
 .btn-large {
-  padding: 1.9rem 5.1rem;
+    padding: 1.9rem 5.1rem;
 }
