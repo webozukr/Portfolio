@@ -261,60 +261,58 @@
     <section class="bg-gray">
         <div class="wrap">
             <div class="user-h2 text-bold text-center mb-4">What My Clients Say</div>
-            <div class="user-h5 text-bold text-center text-uppercase prime mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="user-h5 text-bold text-center text-uppercase prime mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 
             <div class="row">
-                <div class="col-md-4">
-                    <div class="slider-section-left pull-right circle">
-                        <div class="sec-left text-center white text-uppercase">prev</div>
+                <div class="col-md-2">
+                    <div class="slider-section-left pull-right">
+                        <div class="sec-left text-center black user-h2">&larr;</div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="slider-section-middle center">
-                        <div class="sec-middle"></div>
+                <div class="col-md-8">
+                    <div class="slider-section-middle center mb-5">
+                        <div class="sec-middle user-h4 text-center user-block-1 hidden-block">
+                            "Lorem-1 ipsum dolor sit amet, consectetur adipisicing elit. Similique debitis cum, porro eius ut nesciunt laborum earum. Dolorum eligendi, quod modi corporis perferendis a nulla asperiores, nemo eaque quibusdam rem, sequi autem aut magnam!"
+                        </div>
+
+                        <div class="sec-middle user-h4 text-center user-block-2 hidden-block">
+                            "Lorem-2 ipsum dolor sit amet, consectetur adipisicing elit. Similique debitis cum, porro eius ut nesciunt laborum earum. Dolorum eligendi, quod modi corporis perferendis a nulla asperiores, nemo eaque quibusdam rem, sequi autem aut magnam!"
+                        </div>
+
+                        <div class="sec-middle user-h4 text-center user-block-3 hidden-block">
+                            "Lorem-3 ipsum dolor sit amet, consectetur adipisicing elit. Similique debitis cum, porro eius ut nesciunt laborum earum. Dolorum eligendi, quod modi corporis perferendis a nulla asperiores, nemo eaque quibusdam rem, sequi autem aut magnam!"
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="slider-section-right pull-left circle">
-                        <div class="sec-right text-center white text-uppercase">next</div>
+                <div class="col-md-2">
+                    <div class="slider-section-right pull-left">
+                        <div class="sec-right text-center black user-h2">&rarr;</div>
                     </div>
                 </div>
             </div>
 
-            <script>
-                $(document).ready(function() {
-                    var slide_num = 2;
-                    var slide_url = "url(img/mywork-pic-1.jpg) no-repeat center center";
-                    $(".slider-section-right").click(function() {
-                        slide_num = slide_num + 1;
-                        if (slide_num >= 4) {
-                            slide_num = 3;
-                        };
-                        slide_url = "url(img/mywork-pic-" + slide_num + ".jpg) no-repeat center center";
-                        $(".sec-middle").css("background", slide_url);
-                    });
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="myclients-section-left circle pull-right"></div>
+                </div>
+                <div class="col-md-6  mb-5">
+                    <div class="myclients-section-right text-left user-h4 text-bold black">
+                        John Freelancer
+                    </div>
+                    <div class="myclients-section-right text-left user-h5 text-italic">
+                        CEO at Company
+                    </div>
+                </div>
+            </div>
 
-                    $(".slider-section-left").click(function() {
-                        slide_num = slide_num - 1;
-                        if (slide_num <= 0) {
-                            slide_num = 1;
-                        };
-                        slide_url = "url(img/mywork-pic-" + slide_num + ".jpg) no-repeat center center";
-                        $(".sec-middle").css("background", slide_url);
-                    });
-
-                });
-
-            </script>
-
-
-
-
-
-
-
-
-
+            <div class="myclients-section-circles">
+                <div class="center">
+                    <div class="small-circle-default circle-1 inline-block"></div>
+                    <div class="small-circle-default circle-2 inline-block"></div>
+                    <div class="small-circle-default circle-3 inline-block"></div>
+                </div>
+            </div>
 
         </div>
     </section>
