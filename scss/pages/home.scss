@@ -152,7 +152,7 @@
 }
 
 .myclients-section-right {
-    color: #65615d;
+    color: $third;
 }
 
 .small-circle-default {
@@ -176,3 +176,42 @@
     display: none;
 }
 
+.dribbble-icon {
+    width: 6.8rem;
+    height: 6.8rem;
+    background: url("../../img/Dribbble.png") no-repeat center center;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.instagram-icon {
+    width: 6.8rem;
+    height: 6.8rem;
+    background: url("../../img/Instagram.png") no-repeat center center;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.email-icon {
+    width: 6.8rem;
+    height: 6.8rem;
+    background: url("../../img/Email.png") no-repeat center center;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.rss-icon {
+    width: 6.8rem;
+    height: 6.8rem;
+    background: url("../../img/RSS.png") no-repeat center center;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.opacity-icon {
+    opacity: 0.3;
+}
