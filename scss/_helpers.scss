@@ -26,10 +26,12 @@
     float: right;
 }
 
-.clrf:after {
-    content: '';
-    display: table;
-    clear: both;
+.clrf {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
 }
 
 // -------------------------
@@ -200,6 +202,7 @@
 .pb-10 {
     padding-bottom: 10rem;
 }
+
 // -------------------------
 // DECORATION
 // -------------------------

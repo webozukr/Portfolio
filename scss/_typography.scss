@@ -68,16 +68,7 @@ p {
 a {
     @extend %fontf_OS;
     font-size: 1.2rem;
-    color: $bgcolorShade;
-    border: 0.2rem solid transparent;
-    padding-bottom: 1rem;
     text-decoration: none;
-    transition: all 0.5s;
-    &:hover {
-        color: $white;
-        border-bottom-color: $prime;
-        text-decoration: none;
-    }
 }
 
 ::selection {

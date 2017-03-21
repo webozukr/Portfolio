@@ -18,7 +18,23 @@
 
 .top-nav-item {
     display: inline-block;
+}
+
+.top-nav-item>a {
     margin-left: 4.8rem;
+    color: $bgcolorShade;
+    border: 0.2rem solid transparent;
+    padding-bottom: 1rem;
+    transition: all 0.5s;
+    &:hover {
+        color: $white;
+        border-bottom-color: $prime;
+        text-decoration: none;
+    }
+    &:focus{
+        text-decoration: none;
+    }
+    
 }
 
 .myserv-section {
@@ -121,11 +137,6 @@
     opacity: 1;
 }
 
-//TEST SLIDER
-//.slider-section-left,
-//.slider-section-right {
-//
-//}
 .sec-left:hover,
 .sec-right:hover {
     cursor: pointer;
@@ -214,4 +225,19 @@
 
 .opacity-icon {
     opacity: 0.3;
+}
+
+.top-but{
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: $prime;
+    color:$black;
+    padding-top: 1.5rem;
+    &:hover{
+       background-color: $highlight;
+       color:$white; 
+    }
 }

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //step number
-    var slide_num = 2;
+    var slide_num = 1;
 
     //default view
     $(".user-block-" + slide_num).toggleClass("hidden-block");

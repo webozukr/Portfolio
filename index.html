@@ -9,13 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="./css/pages/home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
     <!--TOP SECTION   -->
 
-    <div class="top bg-main pt-4 pb-10">
+    <div id="home" class="top bg-main pt-4 pb-10">
         <header class="wrap clrf">
             <div class="logo pull-left user-h3 text-bold mb-10">John Freelancer</div>
 
@@ -25,11 +26,11 @@
 
             <nav class="top-nav pull-right _nav">
                 <ul class="list-unstyled text-uppercase text-bold">
-                    <li class="top-nav-item"><a href="#">home</a></li>
-                    <li class="top-nav-item"><a href="#">about</a></li>
-                    <li class="top-nav-item"><a href="#">services</a></li>
-                    <li class="top-nav-item"><a href="#">blog</a></li>
-                    <li class="top-nav-item"><a href="#">contact</a></li>
+                    <li class="top-nav-item scrollto"><a href="#home">home</a></li>
+                    <li class="top-nav-item scrollto"><a href="#about">about</a></li>
+                    <li class="top-nav-item scrollto"><a href="#services">services</a></li>
+                    <li class="top-nav-item scrollto"><a href="#clients">blog</a></li>
+                    <li class="top-nav-item scrollto"><a href="#contact">contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -58,7 +59,7 @@
 
     <!--MY SERVICES SECTION-->
 
-    <section class="bg-white">
+    <section id="services" class="bg-white">
         <div class="wrap">
             <div class="text-center user-h2 mb-4 black text-bold">My Services</div>
             <div class="text-center user-h5 mb-10 prime text-uppercase text-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -130,7 +131,7 @@
 
     <!--ABOUT ME SECTION-->
 
-    <section class="bg-gray">
+    <section id="about" class="bg-gray">
         <div class="wrap">
             <div class="user-h2 text-bold text-center mb-4">About Me</div>
             <div class="user-h5 text-bold text-center text-uppercase prime mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -275,7 +276,7 @@
 
     <!--MY CLIENTS-->
 
-    <section class="bg-gray">
+    <section id="clients" class="bg-gray">
         <div class="wrap">
             <div class="user-h2 text-bold text-center mb-4">What My Clients Say</div>
             <div class="user-h5 text-bold text-center text-uppercase prime mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -299,9 +300,9 @@
                         <div class="sec-middle user-h4 text-center user-block-3 hidden-block">
                             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam a ipsum consectetur, temporibus veritatis ad sapiente natus quisquam magnam, perferendis rem voluptatem totam debitis iure recusandae vitae autem eum laudantium molestiae eaque non maxime."
                         </div>
-
                     </div>
                 </div>
+
                 <div class="col-md-2">
                     <div onmousedown="return false" onselectstart="return false" class="slider-section-right pull-left">
                         <div class="sec-right text-center prime user-h2">&rarr;</div>
@@ -335,7 +336,7 @@
 
     <!--GET IN TOUCH-->
 
-    <section class="bg-white">
+    <section id="contact" class="bg-white">
         <div class="wrap">
             <div class="user-h2 text-bold text-center mb-4">Get In Touch</div>
             <div class="user-h5 text-bold text-center text-uppercase prime mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -346,7 +347,6 @@
         </div>
     </section>
 
-
     <!--FOOTER-->
 
     <section class="bg-main">
@@ -354,24 +354,39 @@
             <div class="user-h7 text-center footer-color mb-5">&copy; Copyright 2014 John's Website. All rights reserved.</div>
             <div class="row">
                 <div class="col-xs-1 col-xs-offset-4">
-                    <div class="dribbble-icon center opacity-icon pointer"></div>
+                    <a href="https://dribbble.com/">
+                        <div class="dribbble-icon center opacity-icon pointer"></div>
+                    </a>
                 </div>
 
                 <div class="col-xs-1">
-                    <div class="instagram-icon center opacity-icon pointer"></div>
+                    <a href="https://www.instagram.com/">
+                        <div class="instagram-icon center opacity-icon pointer"></div>
+                    </a>
                 </div>
 
                 <div class="col-xs-1">
-                    <div class="email-icon center opacity-icon pointer"></div>
+                    <a href="https://google.com.ua">
+                        <div class="email-icon center opacity-icon pointer"></div>
+                    </a>
                 </div>
 
                 <div class="col-xs-1">
-                    <div class="rss-icon center opacity-icon pointer"></div>
+                    <a href="https://google.com.ua">
+                        <div class="rss-icon center opacity-icon pointer"></div>
+                    </a>
+
+
                 </div>
             </div>
-
         </div>
     </section>
+
+    <!--MOVE TOP BUTTON    -->
+
+    <div id="top-button" class="circle top-but text-center text-bold text-uppercase pointer" onmousedown="return false" onselectstart="return false">up</div>
+
+    <!--SCRIPTS    -->
 
     <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
 
