@@ -12,7 +12,7 @@ $(document).ready(function () {
         $(".circle-" + slide_num).toggleClass("small-circle-active");
         slide_num = slide_num + 1;
         if (slide_num >= 4) {
-            slide_num = 3;
+            slide_num = 1;
         };
         $(".user-block-" + slide_num).toggleClass("hidden-block");
         $(".circle-" + slide_num).toggleClass("small-circle-active");
@@ -24,7 +24,7 @@ $(document).ready(function () {
         $(".circle-" + slide_num).toggleClass("small-circle-active");
         slide_num = slide_num - 1;
         if (slide_num <= 0) {
-            slide_num = 1;
+            slide_num = 3;
         };
         $(".user-block-" + slide_num).toggleClass("hidden-block");
         $(".circle-" + slide_num).toggleClass("small-circle-active");

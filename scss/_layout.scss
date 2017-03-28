@@ -16,6 +16,10 @@ section {
   padding-left: $contHorIndent;
   padding-right: $contHorIndent;
   margin: 0 auto;
+    @media (max-width: $screen-md){
+    padding-left: $contHorIndentMob;
+    padding-right: $contHorIndentMob;
+  }
 }
 
 .circle {

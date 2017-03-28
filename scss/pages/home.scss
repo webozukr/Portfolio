@@ -3,6 +3,11 @@
 //home page
 .logo {
     color: $white;
+    @media (max-width: $screen-md) {
+        padding-top: 0;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .top {
@@ -11,13 +16,32 @@
     background-size: cover;
 }
 
+.hamburger {
+    color: $white;
+    font-size: 3rem;
+    display: none;
+    cursor: pointer;
+    &:hover {
+        color: $prime;
+    }
+    @media (max-width: $screen-sm) {
+        display: block;
+    }
+}
+
 .top-nav {
     display: block;
     margin-right: 1.5rem;
+    @media(max-width: $screen-sm) {
+        display:none;
+    }
 }
 
 .top-nav-item {
     display: inline-block;
+    @media(max-width: $screen-sm) {
+        display:block;
+    }
 }
 
 .top-nav-item>a {
@@ -31,10 +55,15 @@
         border-bottom-color: $prime;
         text-decoration: none;
     }
-    &:focus{
+    &:focus {
         text-decoration: none;
     }
-    
+    @media(max-width:$screen-sm) {
+        font-size: 2rem;
+        line-height: 4rem;
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
 }
 
 .myserv-section {
@@ -227,17 +256,17 @@
     opacity: 0.3;
 }
 
-.top-but{
+.top-but {
     position: fixed;
     width: 5rem;
     height: 5rem;
     bottom: 2rem;
     right: 2rem;
     background-color: $prime;
-    color:$black;
+    color: $black;
     padding-top: 1.5rem;
-    &:hover{
-       background-color: $highlight;
-       color:$white; 
+    &:hover {
+        background-color: $highlight;
+        color: $white;
     }
 }
