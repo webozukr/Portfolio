@@ -76,6 +76,9 @@
 .mobile-text-center {
   @media (max-width: 992px) {
     text-align: center;
+      .btn-large{
+          width:50%;
+      }
   }
 }
 
