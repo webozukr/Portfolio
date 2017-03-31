@@ -45,12 +45,12 @@
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <div class="text-right mobile-text-center">
-                        <div class="btn-outline btn-large">learn more</div>
+                        <div class="btn-outline btn-large" data-toggle="modal" data-target="#myModal-MoreProj">learn more</div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-12">
                     <div class="text-left mobile-text-center">
-                        <div class="btn-second btn-large" data-toggle="modal" data-target="#myModal">contact me</div>
+                        <div class="btn-second btn-large" data-toggle="modal" data-target="#myModal-ContactMe">contact me</div>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquam pariatur accusamus sint veniam distinctio maxime, quia.</p>
                         </div>
                         <div class="center mb-5">
-                            <div class="center btn-outline-green btn-large">learn more</div>
+                            <div class="center btn-outline-green btn-large" data-toggle="modal" data-target="#myModal-MoreProj">learn more</div>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquam pariatur accusamus sint veniam distinctio maxime, quia.</p>
                         </div>
                         <div class="center mb-5">
-                            <div class="center btn-outline-green btn-large">learn more</div>
+                            <div class="center btn-outline-green btn-large" data-toggle="modal" data-target="#myModal-MoreProj">learn more</div>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquam pariatur accusamus sint veniam distinctio maxime, quia.</p>
                         </div>
                         <div class="center mb-5">
-                            <div class="center btn-outline-green btn-large">learn more</div>
+                            <div class="center btn-outline-green btn-large" data-toggle="modal" data-target="#myModal-MoreProj">learn more</div>
                         </div>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                 </div>
             </div>
             <div class="center">
-                <div class="center btn-outline-green btn-large">see more projects</div>
+                <div class="center btn-outline-green btn-large" data-toggle="modal" data-target="#myModal-MoreProj">see more projects</div>
             </div>
         </div>
     </section>
@@ -320,7 +320,7 @@
             <div class="user-h5 text-bold text-center text-uppercase prime mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 
             <div class="contactme-section center">
-                <div class="btn-second btn-large" data-toggle="modal" data-target="#myModal">contact me</div>
+                <div class="btn-second btn-large" data-toggle="modal" data-target="#myModal-ContactMe">contact me</div>
             </div>
         </div>
     </section>
@@ -360,26 +360,53 @@
         </div>
     </section>
 
-    <!--   MODAL WINDOW   -->
+    <!--   MODAL WINDOW "Contact me"   -->
 
-    <div id="myModal" class="modal fade" role="dialog">
+    <div id="myModal-ContactMe" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
             <div class="modal-content">
                 <div class="modal-header">
                     <!--                    <button type="button" class="close" data-dismiss="modal">&times;</button>-->
-                    <div class="modal-title user-h3 text-bold prime">You can find me here:</div>
+                    <div class="modal-title user-h3 text-bold text-center prime">You can find me here:</div>
                 </div>
                 <div class="modal-body">
                     <p><strong>My location:</strong> Ukraine, Obukhiv<br><strong>My e-mail:</strong> zoliv@ukr.net<br><strong>My skype:</strong> oz_ukr</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn-outline-green btn-small" data-dismiss="modal">Close</button>
                 </div>
             </div>
-
         </div>
     </div>
+
+    <!--   MODAL WINDOW "See more projects"   -->
+
+    <div id="myModal-MoreProj" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title user-h3 text-bold text-center prime">Coming soon...</div>
+                </div>
+                <div class="modal-body">
+                    <p>Here can be your website</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-outline-green btn-small" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
 
     <!--  "MOVE-TOP" BUTTON  -->
 
@@ -392,6 +419,7 @@
     <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
 
     <script src="./js/build.js"></script>
+
 
 
 </body>

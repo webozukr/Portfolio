@@ -67,8 +67,8 @@
     }
 }
 
-.top-subtitle{
-    @media(max-width:$screen-sm){
+.top-subtitle {
+    @media(max-width: $screen-sm) {
         margin-bottom: 30px;
     }
 }
@@ -227,8 +227,12 @@
     width: 6.8rem;
     height: 6.8rem;
     background: url("../../img/Dribbble.png") no-repeat center center;
+    background-size: cover;
     &:hover {
         opacity: 1;
+    }
+    @media(max-width:420px) {
+        transform: scale(0.82);
     }
 }
 
@@ -236,8 +240,12 @@
     width: 6.8rem;
     height: 6.8rem;
     background: url("../../img/Instagram.png") no-repeat center center;
+    background-size: cover;
     &:hover {
         opacity: 1;
+    }
+    @media(max-width:420px) {
+        transform: scale(0.82);
     }
 }
 
@@ -245,8 +253,12 @@
     width: 6.8rem;
     height: 6.8rem;
     background: url("../../img/Email.png") no-repeat center center;
+    background-size: cover;
     &:hover {
         opacity: 1;
+    }
+    @media(max-width:420px) {
+        transform: scale(0.82);
     }
 }
 
@@ -254,8 +266,12 @@
     width: 6.8rem;
     height: 6.8rem;
     background: url("../../img/RSS.png") no-repeat center center;
+    background-size: cover;
     &:hover {
         opacity: 1;
+    }
+    @media(max-width:420px) {
+        transform: scale(0.82);
     }
 }
 
@@ -276,4 +292,8 @@
         background-color: $highlight;
         color: $white;
     }
+}
+
+.modal-body {
+    background-color: $highlightTint;
 }
